@@ -1,0 +1,97 @@
+body {
+  font-family: "Avenir", sans-serif;
+  background-color: black;
+}
+
+nav {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-color: #fff;
+  padding: 10px 40px 5px 40px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo-image {
+  max-width: 120px;
+}
+
+.menu {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+}
+
+li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+}
+.banner{
+  width: 100%;
+}
+
+.banner-image {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.banner-title {
+    color: #fff;
+    align-items: baseline;
+    justify-content: flex-end;
+    font-size: 40px;
+    font-weight: lighter;
+    margin: -120px 0px 0px 40px;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+.banner-subhead {
+    color: #fff;
+    align-items: baseline;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 10px 0px 0px 40px;
+    padding: 0;
+    text-align: left;
+    text-transform: none;
+}
+.article {
+    /* background-color: lightgrey;*/
+    margin-top: 40px;
+    width: 100%;
+}
+
+.article-image {
+    width: 100%;
+}
+
+.article-heading {
+    padding: 10px 0px;
+    margin: 0;
+    color: #fff;
+    font-weight: 200;
+    font-size: 21px;
+}
+
+.article-body {
+    padding: 10px 0px;
+    margin: 0;
+    color: #fff;
+    font-size: 12px;
